@@ -24,6 +24,8 @@
 		AFD43BF616CA7FC100B013C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD43BCE16CA7FC100B013C7 /* Foundation.framework */; };
 		AFD43BFE16CA7FC100B013C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD43BFC16CA7FC100B013C7 /* InfoPlist.strings */; };
 		AFD43C0116CA7FC100B013C7 /* CorporateKnights_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD43C0016CA7FC100B013C7 /* CorporateKnights_TestTests.m */; };
+		AFD43C0C16CAEA8900B013C7 /* VCiWantToCommitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD43C0B16CAEA8900B013C7 /* VCiWantToCommitViewController.m */; };
+		AFD43C0F16CAEAAB00B013C7 /* VCiDontWantToCommitYet.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD43C0E16CAEAAB00B013C7 /* VCiDontWantToCommitYet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		AFD43BFD16CA7FC100B013C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFD43BFF16CA7FC100B013C7 /* CorporateKnights_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CorporateKnights_TestTests.h; sourceTree = "<group>"; };
 		AFD43C0016CA7FC100B013C7 /* CorporateKnights_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorporateKnights_TestTests.m; sourceTree = "<group>"; };
+		AFD43C0A16CAEA8900B013C7 /* VCiWantToCommitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCiWantToCommitViewController.h; sourceTree = "<group>"; };
+		AFD43C0B16CAEA8900B013C7 /* VCiWantToCommitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCiWantToCommitViewController.m; sourceTree = "<group>"; };
+		AFD43C0D16CAEAAB00B013C7 /* VCiDontWantToCommitYet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCiDontWantToCommitYet.h; sourceTree = "<group>"; };
+		AFD43C0E16CAEAAB00B013C7 /* VCiDontWantToCommitYet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCiDontWantToCommitYet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,10 @@
 				AFD43BE716CA7FC100B013C7 /* MainStoryboard_iPad.storyboard */,
 				AFD43BEA16CA7FC100B013C7 /* ViewController.h */,
 				AFD43BEB16CA7FC100B013C7 /* ViewController.m */,
+				AFD43C0A16CAEA8900B013C7 /* VCiWantToCommitViewController.h */,
+				AFD43C0B16CAEA8900B013C7 /* VCiWantToCommitViewController.m */,
+				AFD43C0D16CAEAAB00B013C7 /* VCiDontWantToCommitYet.h */,
+				AFD43C0E16CAEAAB00B013C7 /* VCiDontWantToCommitYet.m */,
 				AFD43BD316CA7FC100B013C7 /* Supporting Files */,
 			);
 			path = "CorporateKnights-Test";
@@ -277,6 +287,8 @@
 				AFD43BD916CA7FC100B013C7 /* main.m in Sources */,
 				AFD43BDD16CA7FC100B013C7 /* AppDelegate.m in Sources */,
 				AFD43BEC16CA7FC100B013C7 /* ViewController.m in Sources */,
+				AFD43C0C16CAEA8900B013C7 /* VCiWantToCommitViewController.m in Sources */,
+				AFD43C0F16CAEAAB00B013C7 /* VCiDontWantToCommitYet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
